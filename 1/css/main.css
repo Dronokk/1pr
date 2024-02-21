@@ -1,0 +1,566 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+/* шапка */
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 3px 3px 3px rgb(185, 185, 185, 0.400);
+}
+
+.container {
+    width: 1600;
+    padding: 0 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav img {
+    width: 300px;
+}
+
+.nav{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav li a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.zastav {
+    width: 1400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.zast img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+    width: 100%;
+    height: 700px;
+}
+
+.title1 {
+    font-size: 30px;
+}
+
+/* блок с афишой */
+.afishas {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.afisha {
+    font-size: 22px;
+    width: 350px;
+    height: 520px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.afisha img {
+    border-radius: 30px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.afisha p {
+    margin: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    box-shadow: 1px 3px 5px 6px rgba(248, 248, 248, 0.788);
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    scale: 1.1;
+    color: black;
+}
+
+/* блок сновостями */
+.news {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.new {
+    font-size: 22px;
+    width: 450px;
+    height: 800px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.new img {
+    border-radius: 30px;
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.new p {
+    margin: 20px;
+}
+
+/* выставки */
+.pokazs {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.pokaz {
+    font-size: 22px;
+    width: 420px;
+    height: 370px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.pokaz img {
+    border-radius: 30px;
+    width: 320px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.pokaz p {
+    margin: 20px;
+}
+
+
+/* блок с событиями */
+.sobs {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.sob {
+    font-size: 22px;
+    width: 350px;
+    height: 520px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.sob img {
+    border-radius: 30px;
+    width: 300px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.sob p {
+    margin: 20px;
+}
+
+
+/* блок с экскурсиями */
+.ecscurs {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.ecscur {
+    font-size: 22px;
+    width: 350px;
+    height: 550px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.ecscur img {
+    border-radius: 30px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.ecscur p {
+    margin: 20px;
+}
+
+
+/* организация мероприятий */
+.merops {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.merop {
+    font-size: 22px;
+    width: 420px;
+    height: 370px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.merop img {
+    border-radius: 30px;
+    width: 320px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.merop p {
+    margin: 20px;
+}
+
+/* организация коммерческиx выставок */
+.commers {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.commer {
+    font-size: 22px;
+    width: 420px;
+    height: 370px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.commer img {
+    border-radius: 30px;
+    width: 320px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.commer p {
+    margin: 20px;
+}
+
+/* проекты для детей */
+.project_dets {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.project_det {
+    font-size: 22px;
+    width: 420px;
+    height: 950px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.project_det img {
+    border-radius: 30px;
+    width: 320px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.project_det p {
+    margin: 20px;
+}
+
+/* проекты для взрослых */
+.project_olds {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.project_old {
+    font-size: 22px;
+    width: 420px;
+    height: 550px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.project_old img {
+    border-radius: 30px;
+    width: 320px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.project_old p {
+    margin: 20px;
+}
+
+/* блок с сувенирами */
+.souvenirs {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.souvenir {
+    font-size: 22px;
+    width: 350px;
+    height: 700px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.souvenir img {
+    border-radius: 30px;
+    height: 200px;
+    width: 280px;
+    margin-top: 10px;
+}
+
+.souvenir p {
+    margin: 20px;
+}
+
+
+/* блок с историей */
+.historys {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.history {
+    font-size: 22px;
+    width: 420px;
+    height: 420px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.history img {
+    border-radius: 30px;
+    width: 320px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.history p {
+    margin: 20px;
+}
+
+/* блок с уставными документами */
+.ustavs {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.ustav {
+    font-size: 22px;
+    width: 420px;
+    height: 120px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.ustav p {
+    margin: 20px;
+}
+
+/* блок с командой */
+.comandas {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.comanda {
+    font-size: 22px;
+    width: 650px;
+    height: 1000px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.comanda img {
+    border-radius: 30px;
+    width: 600px;
+    height: 700px;
+    margin-top: 10px;
+}
+
+.comanda p {
+    margin: 20px;
+}
+
+/* блок с контактами */
+.contacts {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.contact {
+    font-size: 22px;
+    width: 350px;
+    height: 850px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 3px 5px 6px rgb(247, 231, 255);
+}
+
+.contact img {
+    border-radius: 30px;
+    height: 200px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.contact p {
+    margin: 20px;
+}
+
+/* подвал */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0px 0px 5px rgb(185, 185, 185);
+}
+
+footer p{
+    font-size: 18px;
+    margin: 60px;
+}
+
+footer p a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
